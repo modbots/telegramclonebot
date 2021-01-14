@@ -21,31 +21,8 @@
       "description": "Google Drive Folder ID to Clone to. (Dont paste a link)",
       "value": "",
       "required": true
-    },
-    "OWNER_ID": {
-      "description": "Get this value by sending /id to @kelverbot on Telegram.",
-      "value": "",
-      "required": true
-    },
-    "AUTHORISED_USERS" : {
-      "description": "List of user ids to allow bot access to. Note: Write within [] and seperate with ,",
-      "value": "[]",
-      "required": false
-    },
-    "INDEX_URL": {
-      "description": "(Optional) CloudFlare Workers Index Link from GDINDEX (dont put / at end)",
-      "required": false
-    },
-    "IS_TEAM_DRIVE": {
-      "description": "Does you 'GDRIVE_FOLDER_ID' lead to a Team Drive or Normal Google Drive Folder",
-      "required": false,
-      "value": "False"
-    },
-    "USE_SERVICE_ACCOUNTS": {
-      "description": "If you are directly deploying from GitHub, set this to False. But if you later add Service Accounts, go to 'Config Vars' in app settings and set this to True.",
-      "value": "False",
-      "required": false
     }
+    
   },
   "buildpacks": [{
     "url": "heroku/python"
