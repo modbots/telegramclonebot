@@ -8,8 +8,8 @@
     "google drive",
     "clone bot"
   ],
-  "repository": "https://github.com/jagrit007/Telegram-CloneBot",
-  "website":   "https://github.com/jagrit007/Telegram-CloneBot",
+  "repository": "https://github.com/modbots/telegramclonebot",
+  "website":   "https://github.com/modbots/telegramclonebot",
   "success_url": "https://t.me/scippletech",
   "env": {
     "BOT_TOKEN": {
