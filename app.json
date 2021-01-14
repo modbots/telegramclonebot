@@ -20,7 +20,7 @@
     "GDRIVE_FOLDER_ID": {
       "description": "သင်၏ Shared Drive Id ထည့်ပါ",
       "value": "",
-      "required": true
+      "required": false
     }
     
   },
